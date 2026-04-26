@@ -1,0 +1,130 @@
+import {
+  SiPython,
+  SiC,
+  SiJavascript,
+  SiTypescript,
+  SiSqlite,
+  SiHtml5,
+  SiCss3,
+  SiFlutter,
+  SiR,
+  SiReact,
+  SiSpringboot,
+  SiNodedotjs,
+  SiExpress,
+  SiJest,
+  SiJquery,
+  SiBootstrap,
+  SiTailwindcss,
+  SiPandas,
+  SiGit,
+  SiGnubash,
+  SiDocker,
+  SiMongodb,
+  SiFirebase,
+  SiSonarqube,
+  SiLinux,
+  SiApple,
+  SiNextdotjs,
+  SiAndroidstudio,
+  SiPostman,
+} from "react-icons/si";
+import { FaWindows, FaJava } from "react-icons/fa";
+import { FaMicrosoft } from "react-icons/fa6";
+import { TbBrandVscode } from "react-icons/tb";
+import { VscAzureDevops } from "react-icons/vsc";
+
+export const SKILLS = {
+  languages: [
+    { name: "Python", icon: SiPython },
+    { name: "Java", icon: FaJava },
+    { name: "C", icon: SiC },
+    { name: "JavaScript", icon: SiJavascript },
+    { name: "TypeScript", icon: SiTypescript },
+    { name: "SQL", icon: SiSqlite },
+    { name: "HTML", icon: SiHtml5 },
+    { name: "CSS", icon: SiCss3 },
+    { name: "COBOL", icon: SiC },
+    { name: "R", icon: SiR },
+  ],
+  libraries: [
+    { name: "React", icon: SiReact },
+    { name: "Node.js", icon: SiNodedotjs },
+    { name: "Express.js", icon: SiExpress },
+    { name: "Next.js", icon: SiNextdotjs },
+    { name: "Spring Boot", icon: SiSpringboot },
+    { name: "Jest", icon: SiJest },
+    { name: "JUnit", icon: FaJava },
+    { name: "Tailwind CSS", icon: SiTailwindcss },
+    { name: "Bootstrap", icon: SiBootstrap },
+    { name: "Pandas", icon: SiPandas },
+    { name: "jQuery", icon: SiJquery },
+    { name: "Flutter", icon: SiFlutter },
+    
+  ],
+  tools: [
+    { name: "Git", icon: SiGit },
+    { name: "Docker", icon: SiDocker },
+    { name: "Bash", icon: SiGnubash },
+    { name: "SQLite", icon: SiSqlite },
+    { name: "Azure DevOps", icon: VscAzureDevops },
+    { name: "MongoDB", icon: SiMongodb },
+    { name: "Firebase", icon: SiFirebase },
+    { name: "Android Studio", icon: SiAndroidstudio },
+    { name: "SonarQube", icon: SiSonarqube },
+    { name: "VS Code", icon: TbBrandVscode },
+    { name: "Postman", icon: SiPostman },
+    { name: "Microsoft Office", icon: FaMicrosoft },
+  ],
+  os: [
+    { name: "Linux", icon: SiLinux },
+    { name: "Windows", icon: FaWindows },
+    { name: "macOS", icon: SiApple },
+  ],
+};
+
+export const WORK = [
+  {
+    title: "Teaching Assistant",
+    company: "University of Guelph",
+    date: "Sep. 2025 - Dec. 2025",
+    location: "Guelph, ON",
+    points: [
+      "Assisted students in debugging Java object-oriented programming assignments and resolving test case failures during office hours.",
+      "Supported students in debugging code and understanding test case failures.",
+    ],
+  },
+  {
+    title: "DevOps Engineer Intern",
+    company: "University of Guelph",
+    date: "Jan. 2025 - Aug. 2025",
+    location: "Guelph, ON",
+    points: [
+      "Developed CI/CD pipelines in Azure DevOps using YAML to reduce release errors and accelerate delivery cycles.",
+      "Migrated Polymer frontend codebase to React, improving maintainability and scalability.",
+      "Integrated Microsoft REST APIs to automate workflows and data synchronization, increasing process efficiency by 95%.",
+    ],
+  },
+  {
+    title: "Software Developer Intern",
+    company: "University of Guelph",
+    date: "Jun. 2024 - Aug. 2024",
+    location: "Guelph, ON",
+    points: [
+      "Developed consistent and responsive UI components using JavaScript, React and Bootstrap, improving navigation and increasing mobile engagement.",
+      "Automated manual communication processes using Microsoft Power Automate and JSON, increasing workflow efficiency by 90%.",
+      "Resolved 50+ client-reported bugs using JavaScript, reducing the backlog for user-reported issues.",
+    ],
+  },
+  {
+    title: "Web Developer Intern",
+    company: "University of Guelph",
+    date: "Sep. 2023 - Dec. 2023",
+    location: "Guelph, ON",
+    points: [
+      "Developed responsive and AODA-compliant UI components using HTML, CSS, and Bootstrap, supporting accessibility standards across 12+ departmental websites.",
+      "Improved brand consistency across faculty websites using CSS and Bootstrap, improving website traffic by 11%.",
+      "Utilized Azure DevOps to manage and track work items, ensuring seamless collaboration within a Scrum/Agile team.",
+    ],
+  },
+];
