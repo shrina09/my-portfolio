@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata = {
-  title: "My Portfolio",
+  title: "Shrina Patel",
   description: "Personal portfolio built with Next.js + Tailwind",
 };
 

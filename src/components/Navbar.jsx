@@ -68,7 +68,7 @@ export default function Navbar() {
           ))}
 
           <a
-            href="/resume.pdf"
+            href="/shrina_patel_resume.pdf"
             target="_blank"
             className={resumeCtaClass}
             rel="noopener noreferrer"
@@ -80,7 +80,7 @@ export default function Navbar() {
         {/* Mobile controls */}
         <div className="flex items-center gap-2 sm:hidden">
           <a
-            href="/resume.pdf"
+            href="/shrina_patel_resume.pdf"
             target="_blank"
             className={mobileResumeClass}
             rel="noopener noreferrer"
@@ -136,7 +136,7 @@ export default function Navbar() {
               ))}
 
               <a
-                href="/resume.pdf"
+                href="/shrina_patel_resume.pdf"
                 target="_blank"
                 onClick={closeMenu}
                 className={mobileResumeCtaClass}
