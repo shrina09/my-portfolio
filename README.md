@@ -72,5 +72,4 @@ Add the same contact form environment variables in Netlify under:
 Project configuration -> Environment variables
 ```
 
-
 Keep `SMTP_PASS` protected and never commit it to the repository.
