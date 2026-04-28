@@ -41,7 +41,7 @@ Create a `.env.local` file for local development:
 ```env
 CONTACT_TO_EMAIL=your_email@gmail.com
 SMTP_HOST=smtp.gmail.com
-SMTP_PORT=465
+SMTP_PORT=SMPT_PORT
 SMTP_SECURE=true
 SMTP_USER=your_email@gmail.com
 SMTP_PASS=your_gmail_app_password
