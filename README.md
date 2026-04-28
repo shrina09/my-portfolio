@@ -72,10 +72,5 @@ Add the same contact form environment variables in Netlify under:
 Project configuration -> Environment variables
 ```
 
-If Netlify secret scanning flags public values such as the contact email or SMTP host, add:
-
-```env
-SECRETS_SCAN_OMIT_KEYS=CONTACT_TO_EMAIL,SMTP_HOST,SMTP_USER
-```
 
 Keep `SMTP_PASS` protected and never commit it to the repository.
