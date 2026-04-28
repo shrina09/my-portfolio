@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Shrina Patel Portfolio
+
+Personal portfolio website for Shrina Patel, built with Next.js and Tailwind CSS. The site presents my software engineering background, project work, technical skills, work experience, resume, and a contact form.
+
+## Live Site
+
+[https://shrinapatel.netlify.app](https://shrina-patel.netlify.app/)
+
+
+## Tech Stack
+
+- Next.js
+- React
+- Tailwind CSS
+- JavaScript
+- Nodemailer
+- React Icons
+- Lucide React
+- Netlify
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a `.env.local` file for local development:
 
-## Learn More
+```env
+CONTACT_TO_EMAIL=your_email@gmail.com
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=465
+SMTP_SECURE=true
+SMTP_USER=your_email@gmail.com
+SMTP_PASS=your_gmail_app_password
+```
 
-To learn more about Next.js, take a look at the following resources:
+For Gmail, `SMTP_PASS` should be a Gmail App Password, not the regular account password.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Available Scripts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run dev
+```
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The site is deployed on Netlify from GitHub.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Recommended Netlify settings:
+
+```text
+Build command: npm run build
+Publish directory: .next
+```
+
+Add the same contact form environment variables in Netlify under:
+
+```text
+Project configuration -> Environment variables
+```
+
+If Netlify secret scanning flags public values such as the contact email or SMTP host, add:
+
+```env
+SECRETS_SCAN_OMIT_KEYS=CONTACT_TO_EMAIL,SMTP_HOST,SMTP_USER
+```
+
+Keep `SMTP_PASS` protected and never commit it to the repository.

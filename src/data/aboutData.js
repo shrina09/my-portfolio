@@ -90,8 +90,8 @@ export const WORK = [
     date: "Sep. 2025 - Dec. 2025",
     location: "Guelph, ON",
     points: [
-      "Assisted students in debugging Java object-oriented programming assignments and resolving test case failures during office hours.",
-      "Supported students in debugging code and understanding test case failures.",
+      "Conducted labs teaching Java Object Oriented Programming concepts including classes, inheritance, polymorphism, and encapsulation through hands-on coding exercises.",
+      "Improved assignment test coverage by creating JUnit autograder tests for requirements, edge cases, and outputs.",
     ],
   },
   {
@@ -100,9 +100,10 @@ export const WORK = [
     date: "Jan. 2025 - Aug. 2025",
     location: "Guelph, ON",
     points: [
-      "Developed CI/CD pipelines in Azure DevOps using YAML to reduce release errors and accelerate delivery cycles.",
-      "Migrated Polymer frontend codebase to React, improving maintainability and scalability.",
-      "Integrated Microsoft REST APIs to automate workflows and data synchronization, increasing process efficiency by 95%.",
+      "Automated build and deployment workflows by creating Azure DevOps YAML CI/CD pipelines, reducing manual deployment effort by 60% and improving release consistency across project migrations.",
+      "Reduced manual migration analysis by building a Python parser that converted large cron job files into categorized CSV reports, helping teams identify which scripts ran, when they ran, and how they supported legacy workflows.",
+      "Migrated legacy frontend components from Polymer to React, eliminating deprecated dependencies and improving maintainability on a modern stack.",
+      "Automated backlog management by integrating Microsoft REST APIs with Azure DevOps, reducing manual ticket routing by approximately 90% through urgency-based task automation.",
     ],
   },
   {
@@ -111,9 +112,10 @@ export const WORK = [
     date: "Jun. 2024 - Aug. 2024",
     location: "Guelph, ON",
     points: [
-      "Developed consistent and responsive UI components using JavaScript, React and Bootstrap, improving navigation and increasing mobile engagement.",
-      "Automated manual communication processes using Microsoft Power Automate and JSON, increasing workflow efficiency by 90%.",
-      "Resolved 50+ client-reported bugs using JavaScript, reducing the backlog for user-reported issues.",
+      "Improved mobile usability across university websites by building responsive navigation, content cards, and page layout components using React, JavaScript, Bootstrap, HTML, and CSS.",
+      "Resolved 50+ client-reported website issues by debugging frontend layout defects, fixing broken components, and imroving UI behaviour across desktop and mobile devices.",
+      "Supported website launches by configuring DNS records, CNAME mappings, and custom domains, then coordinating SSL certificate requests for institutional domain routing.",
+      "Contributed to sprint delivery in an Agile/Scrum environment by using Git, pull requests, and Azure DevOps to track bugs, review changes, and deploy responsive UI fixes.",
     ],
   },
   {
@@ -122,9 +124,9 @@ export const WORK = [
     date: "Sep. 2023 - Dec. 2023",
     location: "Guelph, ON",
     points: [
-      "Developed responsive and AODA-compliant UI components using HTML, CSS, and Bootstrap, supporting accessibility standards across 12+ departmental websites.",
-      "Improved brand consistency across faculty websites using CSS and Bootstrap, improving website traffic by 11%.",
-      "Utilized Azure DevOps to manage and track work items, ensuring seamless collaboration within a Scrum/Agile team.",
+      "Improved accessibility across faculty and department websites by building and updating AODA-compliant pages using HTML, CSS, and Bootstrap.",
+      "Increased website engagement by 11% by redesigning page layouts using Bootstrap, improving content structure, and aligning pages with university branding standards.",
+      "Improved website reliability by debugging broken links, layout defects, formatting issues, and RSS/XML feed errors across CMS-driven university websites.",
     ],
   },
 ];
